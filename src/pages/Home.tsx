@@ -6,7 +6,7 @@ const features = [
   {
     title: "QuizForge Studio",
     description: "Quiz workspace, upload a PDF, and generate a polished practice flow.",
-    href: "/quizforge.html",
+    href: "/quiz",
     label: "Open QuizForge",
     icon: FileText,
   },
@@ -32,7 +32,7 @@ export default function Home() {
             <h1 className="font-['Georgia'] text-xl font-semibold tracking-tight text-slate-900">Ed AI Interface</h1>
           </div>
           <a
-            href="/quizforge.html"
+            href="/quiz"
             className="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white transition hover:bg-slate-700"
           >
             Launch QuizForge
@@ -59,7 +59,7 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="/quizforge.html"
+                href="/quiz"
                 className="inline-flex items-center gap-2 rounded-full bg-rose-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(244,63,94,0.28)] transition hover:-translate-y-0.5 hover:bg-rose-400"
               >
                 Let's get started
